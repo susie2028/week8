@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const frameCount = 197;
   const currentFrame = index =>
-    `assets/images/slide_for_png/slide${String(index).padStart(3, '0')}.png`;
+  `assets/images/slide_for_webP/slide${String(index).padStart(3, '0')}.webp`;
 
   const images = [];
   let loadedImages = 0;
