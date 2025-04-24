@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // 🐭 말풍선 6초에 등장
   video2.addEventListener("timeupdate", () => {
-    if (video2.currentTime >= 6 && speechBubble.classList.contains("hidden")) {
+    if (video2.currentTime >= 3 && speechBubble.classList.contains("hidden")) {
       speechBubble.classList.remove("hidden");
     }
   });
